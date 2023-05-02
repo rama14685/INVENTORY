@@ -1,0 +1,37 @@
+.registrasi {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #717996;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 300px;
+  min-height: 300px;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.247);
+  padding: 40px 30px;
+}
+
+.container .text {
+  color: rgb(247, 245, 245);
+  font-weight: 800;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  display: block;
+  text-transform: capitalize;
+}
+
+.container .registrasi_admin .input_admin {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 25px;
+  color: #fff;
+}
